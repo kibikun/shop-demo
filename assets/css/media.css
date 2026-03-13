@@ -1,0 +1,107 @@
+@media (min-width:600px) {
+    nav {
+        padding: 1.5rem;
+    }
+
+    .search__container {
+        min-width: 250px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+    }
+
+    .item__container {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+}
+
+@media (min-width:768px) {
+    .search__container {
+        width: 95%;
+        border-radius: unset;
+        padding: 0.5rem;
+    }
+
+    input[type="search"] {
+        border-radius: unset;
+    }
+
+    .item__container {
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+}
+
+@media (min-width:1000px) {
+
+    .container {
+        display: flex;
+    }
+
+    .list {
+        position: sticky;
+        top: 60px;
+        align-self: flex-start;
+        width: 40%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footwear,
+    .brand {
+        margin: 2rem 0;
+        padding: 1rem;
+        background-color: #f2eeee;
+    }
+
+    .list__title {
+        margin: 1rem 0;
+    }
+
+    .gen {
+        padding: 0.5rem;
+        display: flex;
+        align-content: center;
+        gap: 5px;
+    }
+
+    .gen label {
+        font-size: 1.2rem;
+    }
+
+    .item__container {
+        gap: 20px;
+    }
+
+    .card {
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card:active {
+        transform: scale(1);
+    }
+}
+
+@media (min-width:1200px) {
+    .list {
+        width: 20%;
+    }
+
+    .item__container {
+        grid-template-columns: repeat(5, 1fr)
+    }
+}
+
+@media (min-width:1400px) {
+
+    .item__container {
+        grid-template-columns: repeat(6, 1fr)
+    }
+}
