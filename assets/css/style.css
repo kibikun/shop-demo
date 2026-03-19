@@ -84,6 +84,15 @@ input[type="search"] {
     background-color: #ddd;
 }
 
+.search__container:focus-within {
+    width: 90%;
+    transition: 0.2s;
+}
+
+input[type="search"]:focus {
+    width: 100%;
+}
+
 .search__container img {
     width: 25px;
 }
