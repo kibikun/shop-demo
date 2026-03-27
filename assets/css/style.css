@@ -138,6 +138,10 @@ nav img {
     width: 125px;
 }
 
+.rating {
+    width: 100%;
+}
+
 .price {
     font-size: 1.2rem;
     font-weight: 800;
