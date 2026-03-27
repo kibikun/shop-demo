@@ -1,3 +1,15 @@
+@media (min-width:500px) {
+    .service__container {
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+
+    .service {
+        flex-direction: row;
+    }
+
+}
+
 @media (min-width:600px) {
     nav {
         padding: 1.5rem;
@@ -37,6 +49,13 @@
         width: 100%;
         transition: 0.2s;
     }
+
+    .service__container {
+        justify-content: center;
+        gap: 10rem;
+    }
+
+
 }
 
 @media (min-width:1000px) {
@@ -91,6 +110,10 @@
 
     .card:active {
         transform: scale(1);
+    }
+
+    .service__container {
+        gap: 20rem;
     }
 }
 

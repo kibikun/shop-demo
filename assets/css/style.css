@@ -149,6 +149,41 @@ nav img {
     color: #be2c2d;
 }
 
+.service__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f5f6;
+}
+
+.service {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.service__icon img {
+    width: 30px;
+
+}
+
+.service p span {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 800;
+
+}
+
+.service p {
+    font-size: 1.2rem;
+}
+
 .list {
     display: none;
 }
