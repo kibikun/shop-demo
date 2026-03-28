@@ -130,6 +130,11 @@
         grid-template-columns: repeat(5, 1fr)
     }
 
+    .service__container {
+        justify-content: center;
+        gap: 10rem;
+    }
+
     .service {
         min-width: 200px;
     }
@@ -142,4 +147,5 @@
     .item__container {
         grid-template-columns: repeat(6, 1fr)
     }
+
 }
