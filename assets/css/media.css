@@ -6,10 +6,6 @@
         justify-content: space-between;
     }
 
-    .service {
-        flex-direction: row;
-    }
-
 }
 
 @media (min-width:37.5rem)
@@ -56,11 +52,9 @@
         transition: 0.2s;
     }
 
-    .service__container {
-        justify-content: center;
-        gap: 10rem;
+    .service {
+        flex-direction: row;
     }
-
 
 }
 
@@ -121,7 +115,7 @@
     }
 
     .service__container {
-        gap: 20rem;
+        gap: 10rem;
     }
 }
 
@@ -134,6 +128,10 @@
 
     .item__container {
         grid-template-columns: repeat(5, 1fr)
+    }
+
+    .service {
+        min-width: 200px;
     }
 }
 
