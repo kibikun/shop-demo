@@ -172,19 +172,7 @@ nav img {
 
 
 .service__icon img {
-    width: 30px;
-}
-
-.service p span {
-    margin-bottom: 5px;
-    display: block;
-    font-size: 1.6rem;
-    font-weight: 800;
-
-}
-
-.service p {
-    font-size: 1.2rem;
+    width: 25px;
 }
 
 .service a {
