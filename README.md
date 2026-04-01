@@ -2,6 +2,7 @@
 
 Simple and clean online shoe shop demo showcasing a product gallery and basic e‑commerce UI experience. It highlights a range of shoe products with images, categories, and pricing, Showcasing a clean and responsive product gallery interface.
 
+PHP version of shop-demo: https://github.com/kibikun/shop-demo-php
 ## Features
 
 • Product display grid – Shows shoe items with images, names, and prices.
